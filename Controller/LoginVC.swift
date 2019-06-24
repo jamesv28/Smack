@@ -18,6 +18,10 @@ class LoginVC: UIViewController {
 
     }
     
-
+    @IBAction func createAccountBtn(_ sender: Any) {
+        performSegue(withIdentifier: CREATE_ACCOUNT, sender: nil)
+    }
+    
+    
 
 }
